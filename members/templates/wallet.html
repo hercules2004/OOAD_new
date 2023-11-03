@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MetaMask Wallet Connection</title>
+    {% comment %} <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}"> {% endcomment %}
+    <script src="{% static 'js/app.js' %}"></script>
+</head>
+<body>
+    <div class= "container">
+    <h1>Connect to MetaMask</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <p id="walletAddress">Wallet Address: <span id="address"></span></p>
+    </div>
+</body>
+</html>
